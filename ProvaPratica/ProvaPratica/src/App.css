@@ -1,0 +1,36 @@
+body{
+  background-color: #ffffff ;
+}
+.logo{
+  width: 100px;
+}
+.cabecalho{
+  right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #126cf3; 
+    padding: 25px;
+    align-items: center;
+    height: 10px;
+}
+.time{
+  display: flex;
+  width: 1000px;
+  gap: 10px;
+  height: 40px;
+}
+.tudo{
+  margin-top: 70px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  height: 100vh;
+}
+li{
+  list-style-type: none;
+}
